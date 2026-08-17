@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<title>Volná místa v kurzech plavání</title>
+<style>
+:root{--blue:#95d9f1;--ink:#2f5966;--line:#d7edf5;--soft:#eef9fd}
+*{box-sizing:border-box}html,body{margin:0;background:transparent;font-family:Arial,Helvetica,sans-serif;color:#334}
+.card{width:100%;max-width:900px;margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 6px 20px rgba(48,89,102,.13)}
+.head{text-align:center;background:var(--blue);color:var(--ink);padding:20px 22px 17px}.title{font-size:28px;font-weight:700;line-height:1.15}.sub{font-size:14px;margin-top:6px}.age{font-size:12px;line-height:1.45;margin-top:8px;color:#315b68}
+.content{padding:15px 16px 18px}.divider{text-align:center;font-size:14px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink);margin:24px 0 10px}
+.group{border:1px solid #e3eff3;border-radius:14px;overflow:hidden;margin:0 0 12px}.gtitle{background:var(--soft);padding:10px 14px;font-size:17px;font-weight:700;color:#315b68}
+.th,.row{display:grid;grid-template-columns:1.05fr .7fr 1.55fr;gap:8px;align-items:center;padding:8px 14px}.th{font-size:12px;font-weight:700;color:#708087;border-top:1px solid #edf4f6;border-bottom:1px solid #edf4f6;background:#fafcfd}
+.row{font-size:14px;border-bottom:1px solid #f0f4f5}.row:last-child{border-bottom:0}.status{font-weight:600}.full{color:#aa2637}.last{color:#9c7010}.free{color:#23733b}
+.foot{text-align:center;color:#776b77;font-size:12px;padding:2px 14px 16px}.updated{margin-top:4px;color:#87949a}.error,.loading{text-align:center;padding:28px 18px;color:#6c7b81}
+@media(max-width:560px){.title{font-size:24px}.content{padding:12px 10px 14px}.th,.row{grid-template-columns:1fr .62fr 1.55fr;padding-left:10px;padding-right:10px;gap:6px}.row{font-size:13px}.gtitle{font-size:16px}}
+</style></head><body>
+<div class="card"><header class="head"><div class="title">Volná místa v kurzech plavání</div>
+<div class="sub">Dostupnost se aktualizuje dle aktuální obsazenosti a je informativní.</div>
+<div class="age">I.z ≈ 6–7 měsíců &nbsp; • &nbsp; II.z ≈ 8–9 měsíců &nbsp; • &nbsp; III.z ≈ 10–12 měsíců<br><span style="opacity:.85">z = začátečníci, věkové rozdělení je orientační</span></div></header>
+<main id="c" class="content"><div class="loading">Načítám aktuální volná místa…</div></main>
+<footer class="foot">Aktuální stav volných míst.<div id="u" class="updated"></div></footer></div>
+<script>
+const E=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const C=s=>s.includes('Obsazeno')?'full':s.includes('Poslední')?'last':'free';
+async function load(){try{
+ const r=await fetch('data.json?t='+Date.now(),{cache:'no-store'}); if(!r.ok) throw new Error(r.status);
+ const d=await r.json(); let h='',last='';
+ for(const g of d.groups){if(g.section==='other'&&last!=='other')h+='<div class="divider">Další skupiny</div>'; last=g.section;
+ h+=`<section class="group"><div class="gtitle">${E(g.label)}</div><div class="th"><div>Den</div><div>Čas</div><div>Dostupnost</div></div>`;
+ for(const l of g.lessons)h+=`<div class="row"><div>${E(l.day)}</div><div>${E(l.time)}</div><div class="status ${C(l.status)}">${E(l.status)}</div></div>`;
+ h+='</section>'} document.getElementById('c').innerHTML=h;
+ document.getElementById('u').textContent='Poslední synchronizace: '+new Intl.DateTimeFormat('cs-CZ',{dateStyle:'short',timeStyle:'short',timeZone:'Europe/Prague'}).format(new Date(d.generated_at));
+}catch(e){if(!document.querySelector('.group'))document.getElementById('c').innerHTML='<div class="error">Aktuální data se právě nepodařilo načíst. Zkuste stránku za chvíli obnovit.</div>'}}
+load();setInterval(load,60000);
+</script></body></html>

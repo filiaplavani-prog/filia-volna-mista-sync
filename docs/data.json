@@ -1,0 +1,442 @@
+{
+  "generated_at": "2026-08-17T19:43:19.145937+00:00",
+  "groups": [
+    {
+      "label": "👶 1 rok",
+      "section": "main",
+      "lessons": [
+        {
+          "day": "Pondělí",
+          "time": "12:15",
+          "status": "🟡 Poslední místo"
+        },
+        {
+          "day": "Úterý",
+          "time": "09:00",
+          "status": "🟢 Volná místa (3)"
+        },
+        {
+          "day": "Středa",
+          "time": "12:45",
+          "status": "🟢 Volná místa (4)"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "13:30",
+          "status": "🟡 Poslední místo"
+        },
+        {
+          "day": "Pátek",
+          "time": "09:00",
+          "status": "🟡 Poslední místo"
+        }
+      ]
+    },
+    {
+      "label": "👶 1–1,5 roku",
+      "section": "main",
+      "lessons": [
+        {
+          "day": "Pondělí",
+          "time": "09:30",
+          "status": "🔴 Obsazeno"
+        },
+        {
+          "day": "Pondělí",
+          "time": "12:45",
+          "status": "🔴 Obsazeno"
+        },
+        {
+          "day": "Pondělí",
+          "time": "13:15",
+          "status": "🟢 Volná místa (3)"
+        },
+        {
+          "day": "Pondělí",
+          "time": "15:30",
+          "status": "🟢 Volná místa (6)"
+        },
+        {
+          "day": "Úterý",
+          "time": "11:15",
+          "status": "🟢 Volná místa (6)"
+        },
+        {
+          "day": "Úterý",
+          "time": "15:00",
+          "status": "🔴 Obsazeno"
+        },
+        {
+          "day": "Středa",
+          "time": "09:30",
+          "status": "🟢 Volná místa (6)"
+        },
+        {
+          "day": "Středa",
+          "time": "12:15",
+          "status": "🟢 Volná místa (4)"
+        },
+        {
+          "day": "Středa",
+          "time": "15:00",
+          "status": "🟢 Volná místa (2)"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "10:00",
+          "status": "🟢 Volná místa (5)"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "11:15",
+          "status": "🟢 Volná místa (4)"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "14:30",
+          "status": "🔴 Obsazeno"
+        },
+        {
+          "day": "Pátek",
+          "time": "11:00",
+          "status": "🟢 Volná místa (2)"
+        },
+        {
+          "day": "Pátek",
+          "time": "11:30",
+          "status": "🟢 Volná místa (2)"
+        }
+      ]
+    },
+    {
+      "label": "🫧 1,5–2 roky",
+      "section": "main",
+      "lessons": [
+        {
+          "day": "Pondělí",
+          "time": "10:00",
+          "status": "🟢 Volná místa (2)"
+        },
+        {
+          "day": "Pondělí",
+          "time": "10:45",
+          "status": "🟡 Poslední místo"
+        },
+        {
+          "day": "Pondělí",
+          "time": "16:00",
+          "status": "🟢 Volná místa (3)"
+        },
+        {
+          "day": "Úterý",
+          "time": "11:45",
+          "status": "🔴 Obsazeno"
+        },
+        {
+          "day": "Středa",
+          "time": "10:30",
+          "status": "🟢 Volná místa (4)"
+        },
+        {
+          "day": "Středa",
+          "time": "15:30",
+          "status": "🟢 Volná místa (3)"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "10:30",
+          "status": "🟢 Volná místa (3)"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "12:15",
+          "status": "🟢 Volná místa (3)"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "14:00",
+          "status": "🟢 Volná místa (2)"
+        },
+        {
+          "day": "Pátek",
+          "time": "10:30",
+          "status": "🟢 Volná místa (2)"
+        },
+        {
+          "day": "Sobota",
+          "time": "09:00",
+          "status": "🟡 Poslední místo"
+        }
+      ]
+    },
+    {
+      "label": "🐳 2–2,5 roku",
+      "section": "main",
+      "lessons": [
+        {
+          "day": "Úterý",
+          "time": "10:00",
+          "status": "🟢 Volná místa (2)"
+        },
+        {
+          "day": "Úterý",
+          "time": "10:30",
+          "status": "🟢 Volná místa (2)"
+        },
+        {
+          "day": "Středa",
+          "time": "10:00",
+          "status": "🟢 Volná místa (6)"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "09:30",
+          "status": "🟡 Poslední místo"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "11:45",
+          "status": "🟢 Volná místa (5)"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "15:00",
+          "status": "🟢 Volná místa (2)"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "15:30",
+          "status": "🟢 Volná místa (4)"
+        },
+        {
+          "day": "Pátek",
+          "time": "09:30",
+          "status": "🔴 Obsazeno"
+        }
+      ]
+    },
+    {
+      "label": "🏊 2,5–3 roky",
+      "section": "main",
+      "lessons": [
+        {
+          "day": "Úterý",
+          "time": "16:00",
+          "status": "🔴 Obsazeno"
+        },
+        {
+          "day": "Středa",
+          "time": "11:45",
+          "status": "🟢 Volná místa (4)"
+        },
+        {
+          "day": "Středa",
+          "time": "16:00",
+          "status": "🟡 Poslední místo"
+        },
+        {
+          "day": "Pátek",
+          "time": "10:00",
+          "status": "🟢 Volná místa (2)"
+        }
+      ]
+    },
+    {
+      "label": "I.z",
+      "section": "other",
+      "lessons": [
+        {
+          "day": "Pondělí",
+          "time": "11:15",
+          "status": "🟢 Volná místa (6)"
+        },
+        {
+          "day": "Pondělí",
+          "time": "14:30",
+          "status": "🟢 Volná místa (7)"
+        },
+        {
+          "day": "Úterý",
+          "time": "15:30",
+          "status": "🟢 Volná místa (6)"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "09:00",
+          "status": "🟢 Volná místa (7)"
+        }
+      ]
+    },
+    {
+      "label": "II.z",
+      "section": "other",
+      "lessons": [
+        {
+          "day": "Pondělí",
+          "time": "11:45",
+          "status": "🟢 Volná místa (5)"
+        },
+        {
+          "day": "Středa",
+          "time": "09:00",
+          "status": "🟢 Volná místa (6)"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "12:45",
+          "status": "🟢 Volná místa (4)"
+        },
+        {
+          "day": "Pátek",
+          "time": "12:00",
+          "status": "🟢 Volná místa (5)"
+        }
+      ]
+    },
+    {
+      "label": "III.z",
+      "section": "other",
+      "lessons": [
+        {
+          "day": "Pondělí",
+          "time": "15:00",
+          "status": "🟢 Volná místa (4)"
+        },
+        {
+          "day": "Úterý",
+          "time": "09:30",
+          "status": "🟢 Volná místa (6)"
+        }
+      ]
+    },
+    {
+      "label": "III.",
+      "section": "other",
+      "lessons": [
+        {
+          "day": "Pondělí",
+          "time": "09:00",
+          "status": "🟡 Poslední místo"
+        },
+        {
+          "day": "Pondělí",
+          "time": "13:45",
+          "status": "🟢 Volná místa (6)"
+        },
+        {
+          "day": "Úterý",
+          "time": "12:15",
+          "status": "🟢 Volná místa (3)"
+        },
+        {
+          "day": "Středa",
+          "time": "11:15",
+          "status": "🟢 Volná místa (2)"
+        }
+      ]
+    },
+    {
+      "label": "III. + 1 rok",
+      "section": "other",
+      "lessons": [
+        {
+          "day": "Úterý",
+          "time": "12:45",
+          "status": "🟢 Volná místa (3)"
+        }
+      ]
+    },
+    {
+      "label": "PŘS",
+      "section": "other",
+      "lessons": [
+        {
+          "day": "Pondělí",
+          "time": "16:30",
+          "status": "🟢 Volná místa (2)"
+        },
+        {
+          "day": "Pondělí",
+          "time": "18:15",
+          "status": "🟢 Volná místa (4)"
+        },
+        {
+          "day": "Úterý",
+          "time": "16:45",
+          "status": "🟢 Volná místa (3)"
+        },
+        {
+          "day": "Úterý",
+          "time": "18:15",
+          "status": "🟢 Volná místa (2)"
+        },
+        {
+          "day": "Středa",
+          "time": "16:30",
+          "status": "🟡 Poslední místo"
+        },
+        {
+          "day": "Středa",
+          "time": "17:30",
+          "status": "🟢 Volná místa (2)"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "16:00",
+          "status": "🟢 Volná místa (3)"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "16:45",
+          "status": "🟢 Volná místa (2)"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "18:15",
+          "status": "🟢 Volná místa (3)"
+        },
+        {
+          "day": "Sobota",
+          "time": "09:30",
+          "status": "🔴 Obsazeno"
+        },
+        {
+          "day": "Sobota",
+          "time": "11:00",
+          "status": "🔴 Obsazeno"
+        }
+      ]
+    },
+    {
+      "label": "PŘB",
+      "section": "other",
+      "lessons": [
+        {
+          "day": "Pondělí",
+          "time": "17:30",
+          "status": "🔴 Obsazeno"
+        },
+        {
+          "day": "Úterý",
+          "time": "17:30",
+          "status": "🔴 Obsazeno"
+        },
+        {
+          "day": "Středa",
+          "time": "18:15",
+          "status": "🔴 Obsazeno"
+        },
+        {
+          "day": "Čtvrtek",
+          "time": "17:30",
+          "status": "🔴 Obsazeno"
+        },
+        {
+          "day": "Sobota",
+          "time": "10:15",
+          "status": "🟢 Volná místa (2)"
+        }
+      ]
+    }
+  ]
+}
