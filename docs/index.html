@@ -31,5 +31,14 @@ async function load(){try{
  h+='</section>'} document.getElementById('c').innerHTML=h;
  document.getElementById('u').textContent='Poslední synchronizace: '+new Intl.DateTimeFormat('cs-CZ',{dateStyle:'short',timeStyle:'short',timeZone:'Europe/Prague'}).format(new Date(d.generated_at));
 }catch(e){if(!document.querySelector('.group'))document.getElementById('c').innerHTML='<div class="error">Aktuální data se právě nepodařilo načíst. Zkuste stránku za chvíli obnovit.</div>'}}
-load();setInterval(load,60000);
+load();
+setInterval(load, 60000);
+
+// Pojistka proti cache Google Sites:
+// každé 3 minuty načte celý iframe znovu s novým parametrem.
+setInterval(() => {
+  const url = new URL(window.location.href);
+  url.searchParams.set('_refresh', Date.now());
+  window.location.replace(url.toString());
+}, 180000);
 </script></body></html>
