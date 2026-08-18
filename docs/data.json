@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T19:43:19.145937+00:00",
+  "generated_at": "2026-08-18T07:20:26.745030+00:00",
   "groups": [
     {
       "label": "👶 1 rok",
@@ -145,7 +145,7 @@
         {
           "day": "Čtvrtek",
           "time": "10:30",
-          "status": "🟢 Volná místa (3)"
+          "status": "🟢 Volná místa (2)"
         },
         {
           "day": "Čtvrtek",
@@ -165,7 +165,7 @@
         {
           "day": "Sobota",
           "time": "09:00",
-          "status": "🟡 Poslední místo"
+          "status": "🔴 Obsazeno"
         }
       ]
     },
@@ -191,7 +191,7 @@
         {
           "day": "Čtvrtek",
           "time": "09:30",
-          "status": "🟡 Poslední místo"
+          "status": "🟢 Volná místa (2)"
         },
         {
           "day": "Čtvrtek",
@@ -200,13 +200,8 @@
         },
         {
           "day": "Čtvrtek",
-          "time": "15:00",
-          "status": "🟢 Volná místa (2)"
-        },
-        {
-          "day": "Čtvrtek",
           "time": "15:30",
-          "status": "🟢 Volná místa (4)"
+          "status": "🟡 Poslední místo"
         },
         {
           "day": "Pátek",
@@ -279,7 +274,7 @@
         {
           "day": "Středa",
           "time": "09:00",
-          "status": "🟢 Volná místa (6)"
+          "status": "🟢 Volná místa (5)"
         },
         {
           "day": "Čtvrtek",
@@ -326,12 +321,12 @@
         {
           "day": "Úterý",
           "time": "12:15",
-          "status": "🟢 Volná místa (3)"
+          "status": "🟡 Poslední místo"
         },
         {
           "day": "Středa",
           "time": "11:15",
-          "status": "🟢 Volná místa (2)"
+          "status": "🟡 Poslední místo"
         }
       ]
     },
@@ -376,14 +371,9 @@
           "status": "🟡 Poslední místo"
         },
         {
-          "day": "Středa",
-          "time": "17:30",
-          "status": "🟢 Volná místa (2)"
-        },
-        {
           "day": "Čtvrtek",
           "time": "16:00",
-          "status": "🟢 Volná místa (3)"
+          "status": "🟢 Volná místa (2)"
         },
         {
           "day": "Čtvrtek",
