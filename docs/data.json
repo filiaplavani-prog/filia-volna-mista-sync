@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:43:02.525779+00:00",
+  "generated_at": "2026-08-18T10:00:47.113353+00:00",
   "groups": [
     {
       "label": "👶 1 rok",
@@ -176,7 +176,7 @@
         {
           "day": "Úterý",
           "time": "10:00",
-          "status": "🟢 Volná místa (2)"
+          "status": "🟡 Poslední místo"
         },
         {
           "day": "Úterý",
@@ -191,7 +191,7 @@
         {
           "day": "Čtvrtek",
           "time": "09:30",
-          "status": "🟢 Volná místa (2)"
+          "status": "🟡 Poslední místo"
         },
         {
           "day": "Čtvrtek",
@@ -206,7 +206,7 @@
         {
           "day": "Pátek",
           "time": "09:30",
-          "status": "🔴 Obsazeno"
+          "status": "🟡 Poslední místo"
         }
       ]
     },
@@ -227,12 +227,12 @@
         {
           "day": "Středa",
           "time": "16:00",
-          "status": "🟡 Poslední místo"
+          "status": "🔴 Obsazeno"
         },
         {
           "day": "Pátek",
           "time": "10:00",
-          "status": "🟢 Volná místa (2)"
+          "status": "🟡 Poslední místo"
         }
       ]
     },
@@ -253,7 +253,7 @@
         {
           "day": "Úterý",
           "time": "15:30",
-          "status": "🟢 Volná místa (6)"
+          "status": "🟢 Volná místa (4)"
         },
         {
           "day": "Čtvrtek",
@@ -269,7 +269,7 @@
         {
           "day": "Pondělí",
           "time": "11:45",
-          "status": "🟢 Volná místa (5)"
+          "status": "🟢 Volná místa (4)"
         },
         {
           "day": "Středa",
@@ -284,7 +284,7 @@
         {
           "day": "Pátek",
           "time": "12:00",
-          "status": "🟢 Volná místa (5)"
+          "status": "🟢 Volná místa (4)"
         }
       ]
     },
@@ -353,17 +353,17 @@
         {
           "day": "Pondělí",
           "time": "18:15",
-          "status": "🟢 Volná místa (4)"
-        },
-        {
-          "day": "Úterý",
-          "time": "16:45",
           "status": "🟢 Volná místa (3)"
         },
         {
           "day": "Úterý",
-          "time": "18:15",
+          "time": "16:45",
           "status": "🟢 Volná místa (2)"
+        },
+        {
+          "day": "Úterý",
+          "time": "18:15",
+          "status": "🟡 Poslední místo"
         },
         {
           "day": "Středa",
