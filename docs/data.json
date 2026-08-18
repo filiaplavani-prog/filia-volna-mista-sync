@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T11:00:31.710021+00:00",
+  "generated_at": "2026-08-18T11:57:21.292143+00:00",
   "groups": [
     {
       "label": "👶 1 rok",
@@ -84,7 +84,7 @@
         {
           "day": "Čtvrtek",
           "time": "10:00",
-          "status": "🟢 Volná místa (5)"
+          "status": "🟢 Volná místa (4)"
         },
         {
           "day": "Čtvrtek",
@@ -104,7 +104,7 @@
         {
           "day": "Pátek",
           "time": "11:30",
-          "status": "🟢 Volná místa (2)"
+          "status": "🟢 Volná místa (3)"
         }
       ]
     },
@@ -353,12 +353,12 @@
         {
           "day": "Pondělí",
           "time": "18:15",
-          "status": "🟢 Volná místa (3)"
+          "status": "🟢 Volná místa (2)"
         },
         {
           "day": "Úterý",
           "time": "16:45",
-          "status": "🟢 Volná místa (2)"
+          "status": "🟡 Poslední místo"
         },
         {
           "day": "Úterý",
