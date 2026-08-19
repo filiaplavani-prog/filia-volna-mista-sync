@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T10:27:31.335180+00:00",
+  "generated_at": "2026-08-19T10:42:37.775634+00:00",
   "groups": [
     {
       "label": "👶 1 rok",
@@ -18,7 +18,7 @@
         {
           "day": "Středa",
           "time": "12:45",
-          "status": "🟢 Volná místa (4)"
+          "status": "🟢 Volná místa (3)"
         },
         {
           "day": "Čtvrtek",
@@ -84,7 +84,7 @@
         {
           "day": "Čtvrtek",
           "time": "10:00",
-          "status": "🟡 Poslední místo"
+          "status": "🔴 Obsazeno"
         },
         {
           "day": "Čtvrtek",
@@ -119,13 +119,8 @@
         },
         {
           "day": "Pondělí",
-          "time": "10:45",
-          "status": "🟢 Volná místa (2)"
-        },
-        {
-          "day": "Pondělí",
           "time": "16:00",
-          "status": "🟢 Volná místa (2)"
+          "status": "🟢 Volná místa (3)"
         },
         {
           "day": "Úterý",
@@ -173,6 +168,11 @@
       "label": "🐳 2–2,5 roku",
       "section": "main",
       "lessons": [
+        {
+          "day": "Pondělí",
+          "time": "10:45",
+          "status": "🟢 Volná místa (2)"
+        },
         {
           "day": "Úterý",
           "time": "10:00",
