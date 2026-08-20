@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T09:57:36.515745+00:00",
+  "generated_at": "2026-08-20T10:12:48.746426+00:00",
   "groups": [
     {
       "label": "👶 1 rok",
@@ -36,11 +36,6 @@
       "label": "👶 1–1,5 roku",
       "section": "main",
       "lessons": [
-        {
-          "day": "Pondělí",
-          "time": "09:30",
-          "status": "🔴 Obsazeno"
-        },
         {
           "day": "Pondělí",
           "time": "12:45",
@@ -112,6 +107,11 @@
       "label": "🫧 1,5–2 roky",
       "section": "main",
       "lessons": [
+        {
+          "day": "Pondělí",
+          "time": "09:30",
+          "status": "🔴 Obsazeno"
+        },
         {
           "day": "Pondělí",
           "time": "10:00",
