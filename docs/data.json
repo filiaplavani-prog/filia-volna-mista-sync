@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T15:12:37.981513+00:00",
+  "generated_at": "2026-08-20T15:27:35.037067+00:00",
   "groups": [
     {
       "label": "👶 1 rok",
@@ -191,7 +191,7 @@
         {
           "day": "Čtvrtek",
           "time": "09:30",
-          "status": "🟡 Poslední místo"
+          "status": "🔴 Obsazeno"
         },
         {
           "day": "Čtvrtek",
@@ -279,7 +279,7 @@
         {
           "day": "Čtvrtek",
           "time": "12:45",
-          "status": "🟢 Volná místa (2)"
+          "status": "🟡 Poslední místo"
         },
         {
           "day": "Pátek",
