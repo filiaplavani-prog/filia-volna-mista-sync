@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T12:17:21.983493+00:00",
+  "generated_at": "2026-08-26T12:33:27.483522+00:00",
   "groups": [
     {
       "label": "👶 1 rok",
@@ -269,7 +269,7 @@
         {
           "day": "Středa",
           "time": "12:15",
-          "status": "🟡 Poslední místo"
+          "status": "🔴 Obsazeno"
         },
         {
           "day": "Čtvrtek",
