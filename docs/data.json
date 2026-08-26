@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T16:57:10.380056+00:00",
+  "generated_at": "2026-08-26T17:17:11.698709+00:00",
   "groups": [
     {
       "label": "👶 1 rok",
@@ -14,6 +14,11 @@
           "day": "Úterý",
           "time": "09:00",
           "status": "🔴 Obsazeno"
+        },
+        {
+          "day": "Úterý",
+          "time": "12:45",
+          "status": "🟡 Poslední místo"
         },
         {
           "day": "Čtvrtek",
@@ -327,17 +332,6 @@
           "day": "Středa",
           "time": "11:15",
           "status": "🔴 Obsazeno"
-        }
-      ]
-    },
-    {
-      "label": "III. + 1 rok",
-      "section": "other",
-      "lessons": [
-        {
-          "day": "Úterý",
-          "time": "12:45",
-          "status": "🟡 Poslední místo"
         }
       ]
     },
