@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T18:02:48.020110+00:00",
+  "generated_at": "2026-08-28T01:31:02.026951+00:00",
   "groups": [
     {
       "label": "👶 1 rok",
@@ -88,11 +88,6 @@
         },
         {
           "day": "Pátek",
-          "time": "11:15",
-          "status": "🟢 Volná místa (2)"
-        },
-        {
-          "day": "Pátek",
           "time": "11:45",
           "status": "🟡 Poslední místo"
         }
@@ -130,7 +125,7 @@
         {
           "day": "Středa",
           "time": "08:30",
-          "status": "🟢 Volná místa (2)"
+          "status": "🟡 Poslední místo"
         },
         {
           "day": "Čtvrtek",
@@ -171,7 +166,7 @@
         {
           "day": "Úterý",
           "time": "10:00",
-          "status": "🔴 Obsazeno"
+          "status": "🟡 Poslední místo"
         },
         {
           "day": "Úterý",
@@ -223,6 +218,11 @@
           "day": "Pátek",
           "time": "10:00",
           "status": "🔴 Obsazeno"
+        },
+        {
+          "day": "Sobota",
+          "time": "11:00",
+          "status": "🔴 Obsazeno"
         }
       ]
     },
@@ -238,17 +238,17 @@
         {
           "day": "Pondělí",
           "time": "14:30",
-          "status": "🟡 Poslední místo"
+          "status": "🔴 Obsazeno"
         },
         {
           "day": "Úterý",
           "time": "15:30",
-          "status": "🔴 Obsazeno"
+          "status": "🟡 Poslední místo"
         },
         {
           "day": "Středa",
           "time": "12:45",
-          "status": "🟢 Volná místa (3)"
+          "status": "🟡 Poslední místo"
         },
         {
           "day": "Čtvrtek",
@@ -321,7 +321,7 @@
         {
           "day": "Pondělí",
           "time": "13:45",
-          "status": "🟢 Volná místa (3)"
+          "status": "🟢 Volná místa (2)"
         },
         {
           "day": "Úterý",
@@ -356,7 +356,7 @@
         },
         {
           "day": "Středa",
-          "time": "16:45",
+          "time": "16:30",
           "status": "🔴 Obsazeno"
         },
         {
@@ -377,11 +377,6 @@
         {
           "day": "Sobota",
           "time": "09:30",
-          "status": "🔴 Obsazeno"
-        },
-        {
-          "day": "Sobota",
-          "time": "11:00",
           "status": "🔴 Obsazeno"
         }
       ]
